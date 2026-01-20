@@ -180,3 +180,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   moveSpeed: 1
+  effect: {fileID: 2724686070027197978, guid: 9189031743be3694ca059fe3f38c4787, type: 3}

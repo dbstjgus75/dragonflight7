@@ -12,7 +12,8 @@ public class Launcher : MonoBehaviour
 
     void Shoot()
     {
-        
+        //싱글톤 사운드 플레이
+        SoundManager.instance.SoundBullet();
         //미사일 프리팹, 런쳐포시젼, 방향값 없음
         Instantiate(bullet, transform.position, Quaternion.identity);
     }
