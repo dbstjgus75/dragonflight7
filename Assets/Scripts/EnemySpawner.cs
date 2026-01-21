@@ -8,7 +8,6 @@ public class EnemySpawner : MonoBehaviour
    
     void Start()
     {
-        print("æ»≥Á«œººø‰.");
         InvokeRepeating("mosterSpawn", 0.5f, 1f);
     }
 

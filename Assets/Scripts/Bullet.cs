@@ -26,7 +26,9 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-
+            // 점수 득점
+            GameManager.Instance.AddScore(100);
+            
             //적 죽는 소리 재생
             SoundManager.instance.SoundDie();
 
@@ -39,6 +41,7 @@ public class Bullet : MonoBehaviour
             Destroy(collision.gameObject);
             //자기자신 삭제
             Destroy(gameObject);
+
         }
     }
 }
